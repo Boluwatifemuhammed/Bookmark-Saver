@@ -23,4 +23,5 @@ h2{
 #bookmark-form{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
