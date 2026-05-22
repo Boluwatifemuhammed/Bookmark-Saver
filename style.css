@@ -19,6 +19,7 @@ body{
 
 h2{
     text-align: center;
+    color: navy;
 }
 #bookmark-form{
     display: flex;
@@ -27,7 +28,7 @@ h2{
 }
 
 #text-input{
-    
+
 }
 
 #bookmark-list{
