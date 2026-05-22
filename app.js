@@ -9,10 +9,10 @@ bookmarkForm.addEventListener("submit", function (e) {
     const textValue = textInput.value;
     
     const bookmark = document.createElement("div");
-    bookmark.classList.add(".bookmark")
+    bookmark.classList.add("bookmark")
     bookmark.innerHTML = `
         <span>${textValue}</span>
-        <a href = "${linkValue}"> <button>Open Link</button> </a>
+        <a href = "${linkValue}">Open Link</a>
     `
     bookmarkList.appendChild(bookmark);
     bookmarkForm.reset();

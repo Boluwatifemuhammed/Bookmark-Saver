@@ -10,12 +10,14 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    
 }
 
 .cont{
     background-color: #efefef;
     padding: 1rem;
-    border-top: 4px solid navy ;
+    border-top: 4px solid navy;
+    
 }
 
 h2{
@@ -31,12 +33,14 @@ h2{
 
 input{
     border: none;
+    padding: 0.5rem;
 }
 
-#add-button{
-    padding: 1rem;
+#add-btn{
+    padding: 0.5rem;
     background-color: navy;
     color: white;
+    border: none;
 }
 
 #bookmark-list{
@@ -44,12 +48,15 @@ input{
     gap: 5px;
 }
 
-.bookmark button{
+.bookmark a{
     background-color: #d72323;
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
+    border: none;
 }
 
 .bookmark{
     justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
 }
