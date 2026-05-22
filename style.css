@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cont{
+    background-color: #efefef;
+    padding: 1rem;
+}
+
+h2{
+    text-align: center;
+}
+#bookmark-form{
+    
+}
