@@ -18,22 +18,6 @@ bookmarkForm.addEventListener("submit", function (e) {
     bookmarkForm.reset();
 })
 
-bookmarkForm.addEventListener("submit", function (e) {
-    e.preventDefault();
 
-    const linkValue = linkInput.value;
-    const textValue = textInput.value;
-
-    const bookmark = document.createElement("div")
-    bookmark.classList.add(".bookmark")
-    bookmark.innerHTML = `
-        <p>${textValue}</p>
-        <h1>${linkValue}</h1>
-
-    `
-
-    bookmarkList.appendChild(bookmark);
-    bookmarkForm.reset ();
-})
 
 
