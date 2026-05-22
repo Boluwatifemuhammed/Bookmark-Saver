@@ -15,6 +15,7 @@ body{
 .cont{
     background-color: #efefef;
     padding: 1rem;
+    border-top: 4px solid navy ;
 }
 
 h2{
@@ -25,13 +26,26 @@ h2{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 1rem;
 }
 
-#text-input{
+input{
+    border: none;
+}
 
+#add-button{
+    padding: 1rem;
+    background-color: navy;
+    color: white;
 }
 
 #bookmark-list{
     padding: 1rem;
     gap: 5px;
+}
+
+.bookmark button{
+    background-color: #d72323;
+    color: white;
+    padding: 1rem;
 }
