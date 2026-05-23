@@ -69,7 +69,7 @@ input{
     opacity: 0;
     color: red;
     font-weight: 800;
-    transform: scaleX(2);
+    transform: rotateX(45deg);
     transition: all 0.3s ease;
     cursor: pointer;
 
