@@ -17,7 +17,7 @@ bookmarkForm.addEventListener("submit", function (e) {
     `
     bookmarkList.appendChild(bookmark);
 
-    bookmark.querySelector("remove-icon").addEventListener("click", function() {
+    bookmark.querySelector(".remove-icon").addEventListener("click", function() {
         bookmark.remove();
     })
     bookmarkForm.reset();
