@@ -66,5 +66,15 @@ input{
 }
 
 .remove-icon{
-    transform: scaleX(20px);
+    opacity: 0;
+    color: red;
+    font-weight: 800;
+    transform: scaleX(2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+.bookmark:hover .remove-icon{
+   opacity: 1;
 }
