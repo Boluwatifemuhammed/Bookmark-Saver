@@ -12,7 +12,7 @@ bookmarkForm.addEventListener("submit", function (e) {
     bookmark.classList.add("bookmark")
     bookmark.innerHTML = `
         <span>${textValue}</span>
-        <span class = "remove-icon">-</span>
+        <span class = "remove-icon">+</span>
         <a href = "${linkValue}">Open Link</a>
     `
     bookmarkList.appendChild(bookmark);
