@@ -16,6 +16,8 @@ bookmarkForm.addEventListener("submit", function (e) {
         <a href = "${linkValue}">Open Link</a>
     `
     bookmarkList.appendChild(bookmark);
+
+    bookmark.querySelector("remove-icon")
     bookmarkForm.reset();
 })
 
