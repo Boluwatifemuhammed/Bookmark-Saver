@@ -17,7 +17,7 @@ body{
     background-color: #efefef;
     padding: 1rem;
     border-top: 4px solid navy;
-    
+    min-width: 20rem;
 }
 
 h2{
@@ -44,19 +44,23 @@ input{
 }
 
 #bookmark-list{
-    padding: 1rem;
     gap: 5px;
 }
 
 .bookmark a{
     background-color: #d72323;
     color: white;
-    padding: 0.5rem;
+    padding: 0.4rem;
     border: none;
+    text-decoration: none;
 }
 
 .bookmark{
     justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0.5rem;
     width: 100%;
+    margin-top: 1rem;
     background-color: #fff;
 }
