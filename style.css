@@ -68,7 +68,7 @@ input{
 
 .remove-icon{
     opacity: 0;
-    color: rgb(218, 0, 0);
+    color: rgb(0, 2, 141);
     font-weight: 800;
     font-size: 1.5rem;
     transform: rotateZ(45deg);
