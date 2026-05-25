@@ -42,6 +42,10 @@ input{
     color: white;
     border: none;
 }
+#add-btn::before{
+    transform: scaleX(0);
+}
+
 
 #bookmark-list{
     gap: 5px;
@@ -54,6 +58,7 @@ input{
     border: none;
     text-decoration: none;
 }
+
 
 .bookmark{
     justify-content: space-between;
