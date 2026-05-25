@@ -38,18 +38,17 @@ input{
 
 #add-btn{
     padding: 0.5rem;
+    background-color: navy;
+    color: white;
     border: none;
     cursor: pointer;
 }
 #add-btn::before{
     transform: scaleX(0);
-
 }
 
 #add-btn:hover::before{
     transform: scaleX(1);
-    background-color: navy;
-    color: white;
 }
 
 #bookmark-list{
